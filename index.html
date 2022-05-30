@@ -1,12 +1,193 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>网站维护中</title>
-<meta charset="utf-8" />  
+  <title>XXBLAB - 学习宝实验室</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+  <!-- 新 Bootstrap4 核心 CSS 文件 -->
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+ 
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+ 
+<!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+ 
+<!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+    /*定义滚动条高宽及背景
+
+ 高宽分别对应横竖滚动条的尺寸*/
+
+::-webkit-scrollbar
+
+{
+
+    width:5px;
+
+    height:5px;
+
+    background-color:#F5F5F5;
+
+}
+
+/*定义滚动条轨道
+
+ 内阴影+圆角*/
+::-webkit-scrollbar-track
+
+{
+
+
+    background-color:#F5F5F5;
+ 
+
+}
+
+/*定义滑块
+
+ 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb
+
+{
+
+
+
+
+    background-color:#555;
+
+}
+    
+    *::selection {
+    background-color:#228fbd    ;
+    color: white;
+}
+ 
+*::-moz-selection {
+    background-color:#228fbd  ;
+    color: white;
+}
+ 
+*::-webkit-selection {
+    background-color:#228fbd   ;
+    color: white;
+}
+
+.x{padding:4px 10px;color:white;background-color:royalblue;font-size:16px;text-decoration:none;border-radius:4px;}
+.x:hover{;color:white;background-color:royalblue;text-decoration:none;}
+
+.btn:active {box-shadow:none;}
+.btn:focus {box-shadow:none;}
+.btn-info {border-radius:0;outline:none;border:none;}
+.btn-info:hover{background-color:black ;}
+
+.dropdown-menu {border-radius:0;border:none;padding:0;box-shadow:none;outline:none;background-color:rgba(0, 0, 0, 0);box-shadow: 2px 2px 10px rgb(0, 0, 0,0.4);}
+.dropdown-item{padding: 13px 10px;background-color:white;color:black;font-size:14px;transition:0.1s;border:none;}
+.dropdown-item:hover{color:white;background-color:#fcaf17 ;transition:0.1s;}
+
+.list-group-item {border:none;border-radius:0;}
+.card {border-radius:0;border:none;}
+.list-group-item-action:hover{color:blue;background-color:white;}
+.list-group-item-action:focus{background-color:white;}
+.list-group-item-action:active{background-color:white;}
+
+biaoq{font-size:12px;}
+biaos{font-size:16px; color:grey;text-decoration:bold;}
+biaoz{background-color:red;border-radius:4px;padding:3px;color:white;}
+
+.xuanzhong {color:#005831;}
+.btn:hover{color:#005831  ;}
+
+  </style>
+
 </head>
 <body>
-<h1>网站维护中</p>
+
+ <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-0">
+      <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+       
+        <img src="https://img1.imgtp.com/2022/05/30/4B9BVem9.png" height="40px">
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="/"  class="btn  xuanzhong"> 首页 </a></li>
+         <li class="nav-item"><a href="#"  class="btn   " data-bs-toggle="dropdown"> 知名作品 </a>
+ <div class="dropdown-menu" >
+    
+   <a href="https://www.bilibili.com/video/BV12Y411W7ta" class="dropdown-item" target="_blank">高中摆烂人图鉴（25万播放量）</a>
+    
+
+  </div>
+         </li>
+          
+       <li class="nav-item"><a href="ccqmtjz.htm"  class="btn "> 媒体矩阵 </a></li>
+ 
+        
+        <li class="nav-item"><a href="#" class="btn " data-bs-toggle="dropdown"> 关注我们 </a>
+        <div class="dropdown-menu" >
+    <a class="dropdown-item" target="_blank" href="https://space.bilibili.com/494631046">学习宝B站账号</a>
+    <a class="dropdown-item" target="_blank" href="ccqmtjz.htm">春潮全媒体矩阵</a>
+    
+
+  </div></li>
+
+      </ul>
+    </header>
+  </div>  
+  
+<!-- 轮播 -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+ 
+<img src="https://img1.imgtp.com/2022/05/30/t5xG9kbz.png" width="100%">
+</div>
+
+
+
+
+  <div style="margin-left:8%;margin-right:8%;">
+    <br>
+  <div class="card ">
+    <div class="card-header text-dark  bg-white"><h5>作品动态</h5></div>
+    <div class="card-body "> 
+<a href="https://www.bilibili.com/video/BV12Y411W7ta" class="list-group-item list-group-item-action" target="_blank"><biaos>2021-12-17 [视频]</biaos>  高中摆烂人图鉴 </a>
+
+</div>
+
+
+
+
+ 
+    </div>
+  </div>
+</div>
+
+
+    </div> 
+</div>
+
+</div>
+
+
+<br>
+<div class="mt-2 p-2" style="background-color:#3C3C3C ;">
+  <p style="font-size:12px;text-align:center;color:white;margin-top:6px;margin-bottom:6px;">
+    
+  </p>
+</div>
+<div class="p-2" style="background-color:#272727;">
+
+    <p style="color:lightgrey;text-align:center;font-size: 12px;padding-top:10px;">
+      Copyright © 2021  XXBLAB  All Right Reserved.
+        </p> 
+        
+   
+    </div>
+
+
 </body>
 </html>
