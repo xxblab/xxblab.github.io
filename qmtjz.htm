@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>媒体矩阵 - 学习宝实验室</title>
+  <title>全媒体矩阵 - 春潮社</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
   <!-- 新 Bootstrap4 核心 CSS 文件 -->
@@ -62,19 +63,19 @@
 
 }
     
-    *::selection {
-    background-color:#228fbd    ;
-    color: white;
+ *::selection {
+    background-color:#005AB5   ;
+    color: white ;
 }
  
 *::-moz-selection {
-    background-color:#228fbd  ;
-    color: white;
+    background-color:#005AB5  ;
+    color: white ;
 }
  
 *::-webkit-selection {
-    background-color:#228fbd   ;
-    color: white;
+    background-color:#005AB5   ;
+    color: white ;
 }
 
 .x{padding:4px 10px;color:white;background-color:royalblue;font-size:16px;text-decoration:none;border-radius:4px;}
@@ -85,9 +86,10 @@
 .btn-info {border-radius:0;outline:none;border:none;}
 .btn-info:hover{background-color:black ;}
 
-.dropdown-menu {border-radius:0;border:none;padding:0;box-shadow:none;outline:none;background-color:rgba(0, 0, 0, 0);box-shadow: 2px 2px 10px rgb(0, 0, 0,0.4);}
-.dropdown-item{padding: 13px 10px;background-color:white;color:black;font-size:14px;transition:0.1s;border:none;}
-.dropdown-item:hover{color:white;background-color:#fcaf17 ;transition:0.1s;}
+
+.dropdown-menu {border-radius:0;border:none;padding:0;box-shadow:none;outline:none;background-color:rgba(0, 0, 0, 0);box-shadow: none;}
+.dropdown-item{padding: 13px 10px;background-color:rgba(0, 0, 205, 0.8);color:white;font-size:14px;transition:0.1s;border:none;}
+.dropdown-item:hover{color:white;background-color: #1E90FF  ;transition:0.2s;}
 
 .list-group-item {border:none;border-radius:0;}
 .card {border-radius:0;border:none;}
@@ -99,39 +101,50 @@ biaoq{font-size:12px;}
 biaos{font-size:16px; color:grey;text-decoration:bold;}
 biaoz{background-color:red;border-radius:4px;padding:3px;color:white;}
 
-.xuanzhong {color:#005831;}
-.btn:hover{color:#005831  ;}
+.xuanzhong {color: #0000CD;border-radius:20px;}
+
+
 
   </style>
 
 </head>
-<body>
-
- <div class="container">
+<body style="background-color:#f0f0f0">
+<div style="background-color:white;box-shadow:3px 3px 6px lightgrey;">
+ <div class="container" >
     <header class="d-flex flex-wrap justify-content-center py-3 mb-0">
       <a class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
        
-        <img src="https://img1.imgtp.com/2022/05/30/4B9BVem9.png" height="40px">
+        <img src="https://img1.imgtp.com/2022/05/31/NvWG4kJ2.png" height="35px">
       </a>
 
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="/"  class="btn"> 首页 </a></li>
+        <li class="nav-item"><a href="/"  class="btn"  > 首页 </a></li>
+          <li class="nav-item"><a href="#"  class="btn   xuanzhong" data-bs-toggle="dropdown"> 关于春潮 </a>
+ <div class="dropdown-menu" >
+    
+   <a href="ccsjj.htm" class="dropdown-item " >春潮社概况</a>
+   <a href="qmtjz.htm" class="dropdown-item" >全媒体矩阵</a>
+
+    
+
+  </div>
+         </li>
          <li class="nav-item"><a href="#"  class="btn   " data-bs-toggle="dropdown"> 知名作品 </a>
  <div class="dropdown-menu" >
     
-   <a href="https://www.bilibili.com/video/BV12Y411W7ta" class="dropdown-item" target="_blank">高中摆烂人图鉴（25万播放量）</a>
+   <a href="https://www.bilibili.com/video/BV12Y411W7ta" class="dropdown-item" target="_blank">高中摆烂人图鉴</a>
     
 
   </div>
          </li>
           
-       <li class="nav-item"><a href="ccqmtjz.htm"  class="btn xuanzhong"> 媒体矩阵 </a></li>
+     
  
         
-        <li class="nav-item"><a href="#" class="btn " data-bs-toggle="dropdown"> 关注我们 </a>
+        <li class="nav-item"><a href="#" class="btn " data-bs-toggle="dropdown"> 更多链接 </a>
         <div class="dropdown-menu" >
-    <a class="dropdown-item" target="_blank" href="https://space.bilibili.com/494631046">学习宝B站账号</a>
-    <a class="dropdown-item" target="_blank" href="ccqmtjz.htm">春潮全媒体矩阵</a>
+    <a class="dropdown-item" target="_blank" href="https://space.bilibili.com/494631046">学习宝官方账号</a>
+    <a class="dropdown-item" target="_blank" href=""> </a>
     
 
   </div></li>
@@ -139,12 +152,7 @@ biaoz{background-color:red;border-radius:4px;padding:3px;color:white;}
       </ul>
     </header>
   </div>  
-  
-<!-- 轮播 -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
- 
-<img src="https://img1.imgtp.com/2022/05/30/vYHjNUsa.png" width="100%">
-</div>
+  </div>
 
 
 
@@ -152,9 +160,10 @@ biaoz{background-color:red;border-radius:4px;padding:3px;color:white;}
   <div style="margin-left:8%;margin-right:8%;">
     <br>
   <div class="card ">
-    <div class="card-header text-dark  bg-white"><h5>春潮全媒体矩阵</h5></div>
+    <div class="card-header text-dark  bg-white"><h5>全媒体矩阵概况</h5></div>
     <div class="card-body "> 
-<a class="list-group-item " >暂无内容</a>
+      <p >初步形成了以微信公众号“春潮SPRIDE”为主体的文字内容部门和以bilibili平台“学习宝官方账号”为主体的视频创意部门。</p>
+      <p>两部门共同形成了春潮的全媒体矩阵。</p>
 
 </div>
 
@@ -163,6 +172,24 @@ biaoz{background-color:red;border-radius:4px;padding:3px;color:white;}
 
  
     </div>
+
+     <br>
+  <div class="card ">
+    <div class="card-header text-dark  bg-white"><h5>文字内容部门</h5></div>
+    <div class="card-body "> 
+      <p style="color:gray">暂无信息</p>
+
+</div></div>
+<br>
+  <div class="card ">
+    <div class="card-header text-dark  bg-white"><h5>视频创意部门</h5></div>
+    <div class="card-body "> 
+      <p style="color:gray">暂无信息</p>
+    </div>
+  </div>
+
+
+
   </div>
 </div>
 
@@ -174,15 +201,11 @@ biaoz{background-color:red;border-radius:4px;padding:3px;color:white;}
 
 
 <br>
-<div class="mt-2 p-2" style="background-color:#3C3C3C ;">
-  <p style="font-size:12px;text-align:center;color:white;margin-top:6px;margin-bottom:6px;">
-    
-  </p>
-</div>
-<div class="p-2" style="background-color:#272727;">
 
-    <p style="color:lightgrey;text-align:center;font-size: 12px;padding-top:10px;">
-      Copyright © 2021  XXBLAB  All Right Reserved.
+<div class="p-2" style="background-color:rgba(0, 0, 0, 0.2);">
+
+    <p style="color:black;text-align:center;font-size: 12px;padding-top:10px;">
+      Copyright © 2020  春潮社 All Right Reserved.
         </p> 
         
    
