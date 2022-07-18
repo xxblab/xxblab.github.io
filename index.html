@@ -85,12 +85,12 @@
 
 
 .dropdown-menu {border-radius:0;border:none;padding:0;box-shadow:none;outline:none;background-color:rgba(0, 0, 0, 0);box-shadow: none;}
-.dropdown-item{padding: 13px 10px;background-color:rgba(0, 0, 205, 0.8);color:white;font-size:14px;transition:0.1s;border:none;}
-.dropdown-item:hover{color:white;background-color: #1E90FF  ;transition:0.2s;}
+.dropdown-item{padding: 13px 10px;background-color:rgba(0, 100, 0, 0.9);color:white;font-size:14px;transition:0.1s;border:none;}
+.dropdown-item:hover{color:white;background-color: #9ACD32 ;transition:0.2s;}
 
-.list-group-item {border:none;border-radius:0;}
+.list-group-item {border:none;border-radius:10px;color:rgb(0, 100, 0);padding-left: 0;padding-right: 0;font-size:14px;}
 .card {border-radius:0;border:none;}
-.list-group-item-action:hover{color:blue;background-color:white;}
+.list-group-item-action:hover{color:rgb(0, 100, 0);;background-color:#F0F0F0    ;}
 .list-group-item-action:focus{background-color:white;}
 .list-group-item-action:active{background-color:white;}
 
@@ -98,9 +98,10 @@ biaoq{font-size:12px;}
 biaos{font-size:16px; color:grey;text-decoration:bold;}
 biaoz{background-color:red;border-radius:4px;padding:3px;color:white;}
 
-.xuanzhong {color: #0000CD;border-radius:20px;}
-
-a {color:rgba(0, 0, 205, 0.8);}
+.xuanzhong {color: #007500
+;border-radius:20px;}
+p{font-size: 15px;}
+a {color:#007500;}
 
 
 
@@ -133,16 +134,27 @@ a {color:rgba(0, 0, 205, 0.8);}
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="/"  class="btn xuanzhong"  > 首页 </a></li>
 
-      <li class="nav-item"><a href="/ccsjj.htm" class="btn "> 关于学习宝 </a>
-        </li>
-       <li class="nav-item"><a href="/xxb-docs/members.html" class="btn "> 团队成员 </a>
-        </li>
+
+         <li class="nav-item"><a href="#"  class="btn   " data-bs-toggle="dropdown"> 关于学习宝 </a>
+ <div class="dropdown-menu" >
+    
+   <a href="/ccsjj.htm" class="dropdown-item" target="_blank">学习宝概况</a>
+   <a href="/xxb-docs/members.html" class="dropdown-item" target="_blank">团队成员介绍</a>
+    
+
+  </div>
+         </li>
+          
+
+
+     
  
 
          <li class="nav-item"><a href="#"  class="btn   " data-bs-toggle="dropdown"> 知名作品 </a>
  <div class="dropdown-menu" >
     
-   <a href="https://www.bilibili.com/video/BV12Y411W7ta" class="dropdown-item" target="_blank">高中摆烂人图鉴</a>
+   <a href="https://www.bilibili.com/video/BV12Y411W7ta" class="dropdown-item" target="_blank">学习宝官方账号</a>
+    
     
 
   </div>
@@ -157,18 +169,68 @@ a {color:rgba(0, 0, 205, 0.8);}
     </header>
   </div>  
   </div>
-<img src="https://img1.imgtp.com/2022/05/30/t5xG9kbz.png" width="100%">
 
-
-
-  <div style="margin-left:8%;margin-right:8%;">
-    <br><br>
-  <div class="card ">
-    <div class="card-header text-dark  bg-white"><h5>关注我们</h5></div>
-    <div class="card-body "> 
-      <p><a href="https://space.bilibili.com/494631046" target="_blank">哔哩哔哩</a> | <a href="#" >微信视频号</a></p>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+ 
+  <!-- 指示符 -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+ 
+  <!-- 轮播图片 -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://img1.imgtp.com/2022/05/30/t5xG9kbz.png" width="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://img1.imgtp.com/2022/05/30/t5xG9kbz.png" width="100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://img1.imgtp.com/2022/05/30/t5xG9kbz.png" width="100%">
     </div>
   </div>
+ 
+  <!-- 左右切换按钮 -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+ 
+</div>
+
+
+
+
+  <div style="margin-left:5%;margin-right:5%;">
+    <br><br>
+  <div class="card ">
+    <div class="card-header text-dark  bg-white"><h6>新闻动态</h6></div>
+    <div class="card-body "> 
+      
+  <div class="list-group">
+    <a href="/xxb-docs/newspage/2022-07-18-01.html" target="_blank" class="list-group-item list-group-item-action">学习宝成员高中毕业去向</a> 
+    <a href="/xxb-docs/newspage/2022-06-06-01.html" target="_blank" class="list-group-item list-group-item-action">请收下来自学习宝的高考祝福！</a>
+    <a href="/xxb-docs/newspage/2022-05-22-01.html" target="_blank" class="list-group-item list-group-item-action">吃掉李文化小游戏上线了</a>
+    <a href="/xxb-docs/newspage/2022-03-08-01.html" target="_blank" class="list-group-item list-group-item-action">抗击新冠肺炎疫情，长春定往复常春！</a>
+   
+  </div>
+
+
+    </div>
+  </div>
+
+
+ 
+    <br>
+  <div class="card ">
+    <div class="card-header text-dark  bg-white"><h6>友情链接</h6></div>
+    <div class="card-body "> 
+
+    </div>
 
 
 
@@ -188,7 +250,8 @@ a {color:rgba(0, 0, 205, 0.8);}
 <div class="p-2" style="background-color:white;">
 
     <p style="color:black;text-align:center;font-size: 12px;padding-top:10px;">
-      Copyright © 2020  学习宝官方网站  All Right Reserved. 由春潮社出品
+      © 2020-2022  学习宝官方网站  All Right Reserved. <br><a href="#">吉ICP备11038349号</a>
+        </p>  
         </p> 
         
    
