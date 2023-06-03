@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>威海猫图鉴</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <!-- 新 Bootstrap4 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    /*定义滚动条高宽及背景
+
+ 高宽分别对应横竖滚动条的尺寸*/
+
+::-webkit-scrollbar
+
+{
+
+    width:5px;
+
+    height:5px;
+
+    background-color:#F5F5F5;
+
+}
+
+/*定义滚动条轨道
+
+ 内阴影+圆角*/
+::-webkit-scrollbar-track
+
+{
+
+
+    background-color:#F5F5F5;
+
+
+}
+
+/*定义滑块
+
+ 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb
+
+{
+
+
+
+
+    background-color:#555;
+
+}
+
+    *::selection {
+    background-color:#D2E9FF  ;
+}
+
+*::-moz-selection {
+    background-color#D2E9FF ;
+}
+
+*::-webkit-selection {
+    background-color:#D2E9FF  ;
+}
+
+.x{padding:4px 10px;color:white;background-color:royalblue;font-size:16px;text-decoration:none;border-radius:4px;}
+.x:hover{;color:white;background-color:royalblue;text-decoration:none;}
+
+.btn:active {box-shadow:none;}
+.btn:focus {box-shadow:none;}
+.btn-info {border-radius:0;outline:none;border:none;}
+.btn-info:hover{background-color:#00FFFF ;}
+
+.dropdown-menu {border-radius:0;border-top:solid 5px red;padding:0;box-shadow:none;outline:none;background-color:rgba(255,255,255,0.9);box-shadow: 2px 2px 5px rgb(0, 0, 0,0.3);}
+.dropdown-item{padding: 13px 10px;background-color:lightblue;color:black;font-size:14px;transition:0.1s;}
+.dropdown-item:hover{color:white ;transition:0.1s;background-color:royalblue;}
+
+.list-group-item {border:none;border-radius:0;}
+.card {border-radius:0;border:none;}
+.list-group-item-action:hover{color:blue;background-color:white;}
+.list-group-item-action:focus{background-color:white;}
+.list-group-item-action:active{background-color:white;}
+
+biaoq{font-size:12px;}
+biaos{font-size:16px; color:grey;text-decoration:bold;}
+biaoz{background-color:red;border-radius:4px;padding:3px;color:white;}
+
+.xuanzhong {color:red;}
+.btn:hover{color:red;}
+
+  </style>
+
+</head>
+<body>
+
+
+<!-- 轮播 -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <img src="https://s2.loli.net/2023/06/04/FnavzfS2OEMm4CT.png" width="100%">
+</div>
+
+
+
+
+
+<div id="accordion">
+    <div class="card bg-info">
+        <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseZoe">
+                <is style="color:white">上次更新：2023年6月10日 00:00:00</is>
+            </a>
+        </div>
+        <div id="collapseZoe" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                <h5>更新记录</h5>
+               <p>2023.06.10 00:00:00-更新</p>
+                <p>2023.06.04 02:21:03-上线</p>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">
+                出没位置：宿舍、学子、篮球场、图书馆北
+            </a>
+        </div>
+        <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+
+                <!-- 按钮：用于打开模态框 -->
+                <a class="dropdown-item" data-toggle="modal" data-target="#myModal">
+                    小黑
+                </a>
+
+                <!-- 小黑 -->
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+
+                            <!-- main -->
+                            <div class="modal-body">
+                                <h4><b>姓名：小黑</b></h4>
+                                <p><b>照片：</b>无</p>
+                                <p><b>性别：</b>无</p>
+                                <p><b>区域：</b>宿舍区</p>
+                                <p><b>年龄：</b>无</p>
+                                <p><b>性格：</b>无</p>
+                                <p><b>状态：</b><io class="btn btn-dark" style="padding:3px 8px;">信息缺失</io></p>
+                                <p><b>管理员：</b>无</p>
+                                <p><b>备注：</b>疫苗无，绝育无，社会关系无</p>
+                                <a class="dropdown-item" data-dismiss="modal">关闭</a>
+                            </div></div></div><div></div></div><div>
+                            <!-- 小黑 -->
+
+
+                    <!-- 按钮：用于打开模态框 -->
+                    <a class="dropdown-item" data-toggle="modal" data-target="#myModal2">
+                        大花
+                    </a>
+
+                    <!-- dh -->
+                    <div class="modal fade" id="myModal2">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+
+                                <!-- main -->
+                                <div class="modal-body">
+                                    <h4><b>姓名：大花</b></h4>
+                                    <p><b>照片：</b>无</p>
+                                    <p><b>性别：</b>无</p>
+                                    <p><b>区域：</b>宿舍区</p>
+                                    <p><b>年龄：</b>无</p>
+                                    <p><b>性格：</b>无</p>
+                                    <p><b>状态：</b><io class="btn btn-dark" style="padding:3px 8px;">信息缺失</io></p>
+                                    <p><b>管理员：</b>无</p>
+                                    <p><b>备注：</b>疫苗无，绝育无，社会关系无</p>
+                                    <a class="dropdown-item" data-dismiss="modal">关闭</a>
+                                </div></div></div></div><div></div></div><div></div></div><div></div></div><div>
+                        <!-- dh -->
+
+
+
+
+                    </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                出没位置：图书馆南、思东、西楼、红果园
+            </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+                -
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                出没位置：教学一、二楼、学活中心、体育场
+            </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+               -
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<br>
+<div class="mt-2 p-2" style="background-color:#3C3C3C ;">
+    <p style="font-size:12px;text-align:center;color:white;margin-top:6px;margin-bottom:6px;">
+        贡献：
+    </p>
+</div>
+<div class="p-2" style="background-color:#272727;">
+
+    <p style="color:grey;text-align:center;font-size: 12px;padding-top:10px;">
+        北京交通大学威海校区猫咪图鉴
+    </p>
+
+
+
+</div>
+
+
+</body>
+</html>
