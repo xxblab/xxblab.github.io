@@ -3,14 +3,13 @@
 <head>
 <meta charset="utf-8">
 <title>学习宝LAB</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
  <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
   <!-- 新 Bootstrap4 核心 CSS 文件 -->
  
-<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+
  
 <!-- bootstrap.bundle.min.js 用于弹窗、提示、下拉菜单，包含了 popper.min.js -->
 <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
@@ -50,12 +49,12 @@ body {margin:0;padding:0;}
 }
 
 .topmenu li a:hover:not(.active) {
-     color: #006000;background-color: #FFF4C1 ;
+     color:black;background-color:rgb(255, 176, 1);
 }
 
 .topmenu .active {
     margin-right:10px;height: 100px;color:white;
-    background-color: grey ;
+    background-color: #007500;
 }
 
 .column {
@@ -113,7 +112,7 @@ ul.cbl{box-shadow: 2px 2px 10px #d0d0d0 ;}
    line-height: 300%;
     padding-left: 15px;
 }
-a {color:#AE8F00    ;text-decoration: none;}
+a {color:green ;text-decoration: none;}
 a:hover {color:blue;text-decoration: underline;}
 
 .zw{font-size:18px;line-height:220%;}
@@ -121,21 +120,48 @@ qd{font-size:22px;color:red;}
 </style>
 </head>
 <body>
-<a href="https://space.bilibili.com/494631046" target="_blank"><div class="btn btn-danger" style="width:100%;border-radius: 0;"><h3><b>公告：</b>学习宝已停止所有运营工作。<b>江湖虽远，有缘再见！</b></h3></div></a>
+<button class="btn btn-danger"  data-toggle="modal" data-target="#xxb1" style="width:100%;border-radius: 0;"><b>公告：</b>学习宝已停止所有运营工作。<b>江湖路远，有缘再见！</b></button>
 
 
 <div class="topmenu">
 <ul style="height:100px;">
-    <li><img src="https://i1.hdslb.com/bfs/face/f48af6206fa58d2a3f9aff9de6bc4c13991f4977.jpg" height="80px" style="margin-top:10px;margin-right:100px;margin-left:100px"></li>
+    <li><img src="https://13511974.s21i.faiusr.com/4/ABUIABAEGAAgjYn7rAYogKTc_AIwxgI4bw.png" height="60px" style="margin-top:20px;margin-right:100px;margin-left:100px"></li>
   <li><a class="active" href="/">首页</a></li>
-  <li><a href="https://space.bilibili.com/494631046">关注我们</a></li>
+  <li><a href="https://space.bilibili.com/494631046" target="_blank">关注我们</a></li>
+  <li><a href="#" style="color:red;" data-toggle="modal" data-target="#xxb1">学习宝停止运营公告</a></li>
+
+
+
+
+  <!-- 模态框 -->
+<div class="modal " id="xxb1">
+  <div class="modal-dialog">
+    <div class="modal-content"  style="border-radius: 0;box-shadow: 1px 1px 10px #272727;border: none;">
+      <!-- 模态框头部 -->
+      <div class="modal-header">
+       
+        <p><a type="button" class="close" data-dismiss="modal">关闭</a><a href="#" style="padding-left:10px;">打印</a></p>
+      </div>
+ 
+      <!-- 模态框主体 -->
+      <div class="modal-body">
+        <h3 style="font-weight: bold;color: red;text-align: center;">停止运营公告</h3>
+        <p>自2022年原主创团队成员从高中毕业后，学习宝团队已经处于事实解散状态。因此，经过慎重考虑，我们决定停止学习宝的全部运营工作，包括哔哩哔哩平台《学习宝官方账号》、微信视频号《学习宝官号》和快手《学习宝官方账号》的全部账号运营工作。</p>
+        <p>愿我们的高中生活成为心中共同的美好回忆。江湖路远，有缘再见！</p>
+        <p>注：我们的账号和历史视频将保留，<a href="https://space.bilibili.com/494631046" target="_blank">您可以点击这里</a>进行查看。</p>
+      </div>
+ 
+     
+    </div>
+  </div>
+</div>
   
 
 
 </ul>
 </div>
-
-<img src="https://i0.hdslb.com/bfs/new_dyn/dbd5e856c1f1e4b77d79b1de74d7c735494631046.png" width="100%">
+<div style="background-color:#007500;margin: 0;padding: 0;height: 10px;"></div>
+<img src="https://13511974.s21i.faiusr.com/4/ABUIABAEGAAg3ZX7rAYooMePeTC4CDiADw.png" width="100%">
 
 
 
@@ -143,8 +169,8 @@ qd{font-size:22px;color:red;}
 
 
 <div class="fo2oter">
-  <p>Copyright © 2020-2021 学习宝网 All right reserved.</p>
-  <p>技术支持：&nbsp&nbsp&nbsp建议使用PC访问</p>
+  <p>版权所有 (C) 2022 学习宝LAB网 All right reserved.</p>
+  <p>制作维护：<a href="">学习宝LAB</a>&nbsp&nbsp&nbsp建议使用PC访问</p>
 </div>
 
 </body>
