@@ -17,7 +17,7 @@ ul {
     top:0;transition:height 0.3s, padding 0.3s,box-shadow 0.3s ,background 0.3s;
 }
 
-
+div.panel-body p {line-height:220%;font-family:微软雅黑,黑体,SimHei,sans-serif;}
 
 ul.scroll {
        height:60px;padding:0;transition:height 0.3s, padding 0.3s,box-shadow 0.3s,background 0.3s;background: #2094ce;
@@ -127,6 +127,7 @@ div.panel-body p{font-size: 22px;line-height: 110%;text-indent: 2em;}
 
 
 
-div.topiii {margin:0;background:#f0f0f0;color:#272727;padding:10px 13.88%;line-height:100%;font-size:14px;}
-xbwz a {color:red;margin-left:30px;}
+div.topiii {margin:0;background:#f0f0f0;color:#272727;padding:10px 13.88%;line-height:100%;font-size:14px;position:relative;}
+xbwz {position:absolute;right:13.88%;}
+xbwz a {color:red;}
 xbwz a:hover {text-decoration: underline;color: darkred;}
