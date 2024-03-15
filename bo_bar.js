@@ -5,6 +5,6 @@ document.writeln("	<meta charset=\"utf-8\">");
 document.writeln("	<link rel=\"stylesheet\" type=\"text/css\" href=\"18css.css\">");
 document.writeln("</head>");
 document.writeln("<body>");
-document.writeln("<div class=\"bo_bar\"><img src=\"https://13511974.s21i.faiusr.com/4/10/ABUIABAEGAAg-My8rwYozLjCmAIw6gI4owE.png\" height=\"50px\"><p>|&nbsp&nbsp&nbsp© 2020-2022&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp网站设计与维护：春潮信息&nbsp&nbsp&nbsp|</p></div>");
+document.writeln("<div class=\"bo_bar\"><img src=\"https://13511974.s21i.faiusr.com/4/10/ABUIABAEGAAg-My8rwYozLjCmAIw6gI4owE.png\" height=\"50px\"><p>|&nbsp&nbsp&nbsp© 2020-2022&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp网站设计与维护：春潮信息&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp本站云存储服务由广州华可科技有限公司提供</p></div>");
 document.writeln("</body>");
 document.writeln("</html>");
