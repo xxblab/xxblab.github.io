@@ -81,7 +81,8 @@ ul{
 
 .noscriptalert {background:#fff;color:#000;position:fixed;top:0;width:100vw;height:100vh;padding-top:30vh;margin:0;z-index:99999;text-align:center;font-weight:bold;}
 .noscriptbtn {border: none;background:green;color:#fff;font-size:16px;padding:0 20px;line-height:280%;}
-.r {color:red;font-size:11px;margin-left:4px;}
+.r {color:red;font-weight:bold;}
+.r::selection {background-color:#C4E1FF;color:#000;}
 
 
 .yqljbtn {font-size:14px;color:#3c3c3c;width:100%;line-height:260%;padding:0 30px;cursor:pointer;background:#FBFBFB url(https://13511974.s21i.faiusr.com/4/10/ABUIABAEGAAgi-PBrwYohPCtpgEwDDgM.png) no-repeat 10px 13px;}
