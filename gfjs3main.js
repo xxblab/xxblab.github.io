@@ -7,7 +7,7 @@ document.writeln("	<style type=\"text/css\">");
 document.writeln("		body {margin:0;padding:0;}");
 document.writeln("		@media (max-width:762px) {");
 document.writeln("			.gfjspcbody {display:none}");
-document.writeln("			.gfjsmobilebody {margin:30px;text-align:center;line-height:300%;font-size:30px;color:#9F5000;border:1px solid #9F5000;background-image:linear-gradient(to top,#FFEEDD,#FFFAF4);}");
+document.writeln("			.gfjsmobilebody {margin:30px;text-align:center;line-height:300%;font-size:15px;color:#9F5000;border:1px solid #9F5000;background-image:linear-gradient(to top,#FFEEDD,#FFFAF4);}");
 document.writeln("		} ");
 document.writeln("");
 document.writeln("		@media (min-width:762.1px) {");
