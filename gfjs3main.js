@@ -1,7 +1,8 @@
 document.writeln("<!DOCTYPE html>");
-document.writeln("<html>");
+document.writeln("<html class=\"gfjs3main\">");
 document.writeln("<head>");
 document.writeln("	<meta charset=\"utf-8\">");
+document.writeln("  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">");
 document.writeln("	<style type=\"text/css\">");
 document.writeln("		body {margin:0;padding:0;}");
 document.writeln("		@media (max-width:762px) {");
