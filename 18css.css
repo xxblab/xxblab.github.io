@@ -2,6 +2,7 @@
 .bo_bar {background:#224b77;width:100%;color:#e0e0e0;font-size:14px;line-height:100%;text-align:center;padding:0px;}
 .bo_bar p {display:inline-block;margin:18px 0px;padding:0;vertical-align:top;}
 div.logo {padding-left: 16.5vw;border-top:4px solid #0b6cb8;position:relative;}
+::selection {background:rgba(0,0,0,0.6);color:#fff;}
 
 /*Navbar-Start*/
 ul{
